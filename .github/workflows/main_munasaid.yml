@@ -55,3 +55,5 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3D2C9BA45E5A4800BD9CD033C91C0067 }}
           package: .
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v3.2.0    
