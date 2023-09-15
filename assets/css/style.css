@@ -705,7 +705,6 @@ section {
 # Affiliation
 --------------------------------------------------------------*/
 .services .icon-box {
-  box-shadow: 0px 0 25px 0;
   padding: 50px 30px;
   transition: all ease-in-out 0.4s;
   background: #ccd6f6;
@@ -728,7 +727,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: rgba(236, 235, 242, 1);
+  color:#9169c1
   transition: ease-in-out 0.3s;
 }
 
